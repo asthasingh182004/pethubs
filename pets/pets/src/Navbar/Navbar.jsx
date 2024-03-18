@@ -1,7 +1,7 @@
-import React from 'react'
+import {useState} from 'react'
 import './Navbar.css'
 import search from '../assets/search.png'
-import {Link} from 'react-dom'
+import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -10,10 +10,10 @@ const Navbar = () => {
     <div className='navbar'>
     <img src="" alt='' className='logo'/>
     <ul className='nav-menu'>
-        <li onClick={()=>{setMenu("home")}}><Link to='/home'>HOME</Link>{menu==="home"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("xyz")}}><Link to='/xyz'>ABOUT US</Link>{menu==="xyz"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("category")}}><Link to='/category'>CATEGORY</Link>{menu==="category"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("contact us")}}><Link to='/contact us'>CONTACT US</Link>{menu==="contact us"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("home")}}><Link to='/Home'>HOME</Link>{menu==="home"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("xyz")}}><Link to='/About'>ABOUT US</Link>{menu==="About"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("category")}}><Link to='/Category'>CATEGORY</Link>{menu==="category"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("contact us")}}><Link to='/ContactUs'>CONTACT US</Link>{menu==="contact us"?<hr/>:<></>}</li>
     </ul>
 
     <div className="search-box">
