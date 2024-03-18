@@ -4,8 +4,8 @@ import search from '../assets/search.png'
 import {Link} from 'react-router-dom'
 
 
-const Navbar = () => {
-    const [menu,setMenu]= useState();
+export default function Navbar() {
+  const [menu,setMenu]= useState();
   return (
     <div className='navbar'>
     <img src="" alt='' className='logo'/>
@@ -33,5 +33,3 @@ const Navbar = () => {
     </div>
   )
 }
-
-export default Navbar
