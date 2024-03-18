@@ -1,5 +1,6 @@
 
-export default function Category() {
+
+export default function About() {
   return (
     <div>
       
