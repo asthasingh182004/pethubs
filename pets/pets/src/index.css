@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 .container{
-  width: 100vw;
-  min-height: 100vh;
-  background: #ced8ff;
+  width: 100%;
+  min-height: 100%;
+  background: #f6d0b3d9;
 }
