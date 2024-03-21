@@ -1,13 +1,54 @@
-.greetings h1{
-    font-size: large;
-    font-weight: 500px;
-    color: whitesmoke;
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    /*transition: 2s linear;*/
 }
-.greetings hr{
+
+.about{
+    background: linear-gradient(45deg, hsl(47, 39%, 52%), white);
+    padding: 15px 20px;
+   
+}
+
+
+
+ .about .greetings {
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(165, 42, 42);
+    text-shadow: 0 5px 5px rgb(202, 202, 237);
+    font-size: 25px;
+}
+
+.about .about-container{
+        display: grid;
+        grid-template-rows: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 15px;
+        margin: 10px;
+       /* padding: 20px;*/
+        
+    }
+
+    .about .about-container .about-box{
+        box-shadow: 0 5px 10px rgba(0,0,2);
+        border-radius: 5px;
+        background: #fff;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+
+.about-box hr{
     width: 40px;
     height: 20px;
     border-radius: 30px;
-    background-color: brown;
+    background-color: rgb(245, 236, 236);
     box-shadow: 20px;
 }
