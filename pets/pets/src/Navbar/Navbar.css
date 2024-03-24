@@ -99,7 +99,7 @@ ul{
     cursor: pointer;
 }
 .nav-login button:hover{
-    background-color:  dark brown;
+    background-color: #956c4b;
 }
 
 .register-button{
@@ -109,11 +109,15 @@ ul{
     border: 1px solid #956c4b;
     border-radius: 75px;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 500px;
-    color: #f3e8df;
+   /* color: #f3e8df;*/
     background-color: #ba8046;
     align-items: center;
     cursor: pointer;  
+    padding-top: 5px;
 
+}
+.register-button:hover{
+    background-color: #956c4b;
 }

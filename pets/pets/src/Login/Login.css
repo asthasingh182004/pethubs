@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
+.login-box{
+ left: 50%;
+ top: 50%;
+ margin-left: -25%;
+ position: absolute;
+ margin-top: -10%;
+ background-color: #956c4b;  
+ cursor: pointer; 
+ border-radius: 25px; 
+ 
+}
+
+.login-box .login-form{
+    padding: 30px;
+    margin-right: 80px;
+    
+}
+.login-form h3{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500px;
+    color: darkgoldenrod;
+    font-family: 'Poppins';
+    text-shadow: 0 5px 10px ;
+}
+.login-input-box span{
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.login-input-box input{
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,2);
+    width: 250px ;
+    height: 30px;
+}
+
+.login-input-box button{
+    margin-left: 70px;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,2);
+    font-size: large;
+    font-weight: 500px;
+    color: #956c4b;
+}
+
+.login-input-box button:hover{
+    background-color: #a6cddd;
+}

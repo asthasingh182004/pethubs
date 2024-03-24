@@ -1,22 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    /*transition: 2s linear;*/
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   /* background: url();
+    background-size: cover;*/
+    background: linear-gradient(45deg, hsl(47, 39%, 52%), white);
+    font-family: 'Poppins',sans-serif;
 }
-.box .top .para{
-    font-size: 20px;
-    font-weight: 50px;
-    padding: 20px , 30px;
-    margin: 30px, 20px;
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h3{
+     font-size: 36px;
+     font-weight: 500;
+     color: #956c4b;
+     font-family: 'Poppins';
+     padding: 20px;
+     text-shadow: 0 5px 10px ;
+}
+.contact .content p{
+   font-weight: 300;
+   color: #000000;
+}
+.contact-container{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+.contact-container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+/*.contact-container .contactInfo .contact-box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}*/
+
+/*.contact-container .contactInfo .contact-box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    border-radius: 50%;
+    font-size: 22px;
+}*/
+.contact-container .contactInfo .contact-box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #000000;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+.contact-container .contactInfo .contact-box .text h3{
+    font-weight: 500;
+    color: #956c4b;
+   
+
+}
+.contactform{
+    width: 100%;
+    padding: 40px;
+    background: #956c4b;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    font-family: 'Poppins';
+
+}
+.contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+   /* box-shadow: 0 5px 10px rgba(0,0,0,2);*/
+
+
+}
+.contactform .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    border-width: 2px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,2);
+
+    
+}
+.contactform .inputBox textarea{
+    width: 460px;
+    height: 40px;
+    border-width:2px;
+    border-radius: 25px ;
+    box-shadow: 0 5px 10px rgba(0,0,0,2);
     
 }
 
-.box{
-    background: linear-gradient(45deg, light brown ,white);
+.contactform .inputBox button{
+    font-family: 'Poppins';
+    font-weight: 500px;
+    font-size: 20px;
+    border-color: #000000;
+    border-radius: 40px;
+    background-color: #af6a32;
+    align-items: center;
+    width: 460px;
+    height: 40px;
+
+    
+}
+
+.contactform .inputBox button:hover{
+    background: #564537;
+
 }
