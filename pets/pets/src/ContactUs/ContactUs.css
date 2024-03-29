@@ -65,8 +65,6 @@
 .contact-container .contactInfo .contact-box .text h3{
     font-weight: 500;
     color: #956c4b;
-   
-
 }
 .contactform{
     width: 100%;
@@ -78,7 +76,6 @@
     color: #333;
     font-weight: 500;
     font-family: 'Poppins';
-
 }
 .contactform .inputBox{
     position: relative;
@@ -86,8 +83,6 @@
     margin-top: 10px;
     border-radius: 5px;
    /* box-shadow: 0 5px 10px rgba(0,0,0,2);*/
-
-
 }
 .contactform .inputBox input{
     width: 100%;
@@ -100,8 +95,6 @@
     border-width: 2px;
     border-radius: 25px;
     box-shadow: 0 5px 10px rgba(0,0,0,2);
-
-    
 }
 .contactform .inputBox textarea{
     width: 460px;

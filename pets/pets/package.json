@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
     "@vitejs/plugin-react-swc": "^3.6.0",
+    "axios": "^1.6.8",
     "pets": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -1,10 +1,16 @@
 import React from 'react';
 import './About.css';
+import { AppContext } from '../Context/Product';
+import { useContext } from 'react';
 //import about from '../assets/about.jpeg'
 
 const About = () => {
+
+  const myName = useContext(AppContext);
   return (
+  
     <div className="about"> 
+    {myName}
     <div className="about-container">
     <div className='about-box'>
     <h1 className='greetings'><i><b>Greetings from Petshub</b></i></h1>

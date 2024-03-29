@@ -5,13 +5,15 @@ import {Link} from 'react-router-dom'
 import assets_logo from '../assets/assets_logo.png'
 
 
+
 const Navbar = () => {
     const [menu,setMenu]= useState();
+   {/*const { loginWithRedirect } = useAuth0();*/}
   return (
     <div className='navbar'>
     <img src={assets_logo} alt='' className='logo'/>
     <ul className='nav-menu'>
-        <li onClick={()=>{setMenu("home")}}><Link to='/Home'>HOME</Link>{menu==="home"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("home")}}><Link to='/home'>HOME</Link>{menu==="home"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("about")}}><Link to='/About'>ABOUT US</Link>{menu==="About"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("category")}}><Link to='/Category'>CATEGORY</Link>{menu==="category"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("contact us")}}><Link to='/ContactUs'>CONTACT US</Link>{menu==="contact us"?<hr/>:<></>}</li>

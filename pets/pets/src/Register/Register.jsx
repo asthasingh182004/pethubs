@@ -2,20 +2,37 @@ import React from 'react'
 import './Register.css'
 
 const Register = () => {
+  
   return (
     <section className='register'>
         <div className="register-box">
-            <form>
+            <form >
                 <h2>Registeration Form</h2>
                 <br/>
             <div className="register-input-box">
-              <span>Full Name </span>
+              <span>Full Name : </span>
+              <input type='text' name='' required="required" />
+              
+            </div>
+            <br/>
+            <div className='register-input-box'>
+              <span> UserName : </span>
               <input type='text' name='' required="required"/>
             </div>
             <br/>
             <div className='register-input-box'>
               <span> Email Address : </span>
-              <input type='email' name='' required="required"/>
+              <input type='email' name='' required="required" />
+            </div>
+            <br/>
+            <div className='register-input-box'>
+              <span> Password : </span>
+              <input type='password' name='' required="required" />
+            </div>
+            <br/>
+            <div className='register-input-box'>
+              <span> Confirm Password : </span>
+              <input type='password' name='' required="required"/>
             </div>
             <br/>
             <div className='register-input-box'>
@@ -43,7 +60,9 @@ const Register = () => {
               <input type='text' name='' required="required"/>
             </div>
             <br/>
-            <h2>Additional Deatils </h2>
+            <div className="register-input-box">
+              <button>Register</button>
+            </div>
    
             <br/>
            
